@@ -1,0 +1,309 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&family=PT+Serif&display=swap');
+
+/*Removing extra padding*/
+body, html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  background-color: #F6F4D2;
+}
+
+/* NavBar */
+.navBar{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  background-color: #CBDFBD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*Changing link color*/
+a, a:visited {
+  color: white;
+  text-decoration: none;
+  background-color: #CBDFBD;
+}
+
+a:hover {
+  color: #F19c79;
+}
+
+/*Hero Image */
+.heroImage {
+  background-image: url('https://9b16f79ca967fd0708d1-2713572fef44aa49ec323e813b06d2d9.ssl.cf2.rackcdn.com/1140x_a10-7_cTC/stock-mentalhealth-1625217266.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: #A44A3f;
+  padding-bottom: 100px;
+}
+
+/*Inseting all the content*/
+
+.card {
+  display: flex;
+  border-style: solid;
+  border-color: black;
+  box-shadow:20px 20px 0 rgba(241,156,121,255);
+  transition: 0.3s;
+  background-color: white;
+  padding: 10px;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: auto;
+  height: 100px;
+  display: block;
+  overflow: auto;
+}
+
+/*note to self, give each card a specific height and width*/
+
+.firstContainer {
+  display: inline-block;
+}
+
+.card:hover {
+  box-shadow: 30px 30px 0 rgba(164, 74, 63, 225);
+}
+
+.imageOne {
+  width: 300px;
+  height: 200px;
+  display: block;
+}
+
+/* Both Cards Side By Side */
+
+.bothCards {
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+
+.cardOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: auto;
+  height: 300px;
+  transition: 0.3s;
+  background-color: white;
+  margin-bottom: 50px;
+  overflow: auto;
+}
+
+/*Overflow auto fixes words falling out of containers*/
+
+
+.container {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.cardOne:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imageTwo {
+  padding: 10px;
+  width: 400px;
+  height: 280px;
+  display: block;
+}
+
+.cardTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: auto;
+  height: 300px;
+  transition: 0.3s;
+  background-color: white;
+  overflow: auto;
+}
+
+.cardTwo:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*The footer*/
+.footer {
+  background-color: #CBDFBD;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  position: sticky;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+/*Starting About Page*/
+
+.page2 {
+  font-family: 'Heebo', sans-serif;
+  background-color: #F6F4D2;
+}
+
+/* NavBar */
+.navBar{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  background-color: #CBDFBD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*Changing link color*/
+a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F19c79;
+}
+
+.puzzleImage {
+  max-width: 100%;
+  width: 500px;
+  margin-top: 50px;
+}
+
+.mainImage {
+  display: flex;
+  justify-content: center;
+}
+
+.textOne {
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.textOne:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+h2 {
+  text-align: center;
+}
+
+/*Resources Page*/
+
+.resourcesPage{
+  font-family: 'Heebo', sans-serif;
+  background-color: #F6F4D2;
+}
+
+/* NavBar */
+.navBar{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  background-color: #CBDFBD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*Changing link color*/
+a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F19c79;
+}
+
+/*Main Card */
+.textCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: white;
+  border-style: solid;
+  box-shadow:20px 20px 0 rgba(241,156,121,255);
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.textCard:hover {
+  box-shadow: 30px 30px 0 rgba(164, 74, 63, 225);
+}
+
+/*ResourceOne*/
+
+.resourceOne, .resourceTwo {
+  display: flex;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 50px;
+  margin-top: 70px;
+  margin-right: 50px;
+  margin-bottom:70px;
+  transition: 0.3s;
+}
+
+.resourceOne:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.resourceTwo:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.betterHelp {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+  padding-right: 10px;
+}
+
+.headerCard {
+  text-align: center;
+}
+
+.community {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+}
+
+.containerOne {
+  padding: 10px;
+}
